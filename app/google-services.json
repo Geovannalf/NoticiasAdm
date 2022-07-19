@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "138899257771",
+    "project_id": "noticiasadm-5a72a",
+    "storage_bucket": "noticiasadm-5a72a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:138899257771:android:1884e810d13b871690baee",
+        "android_client_info": {
+          "package_name": "br.com.noticiasadm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "138899257771-0f9gcfm9gn07d09s9jjvot14f2jvme48.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlXzBYDzhEWtitaZ18LZMjcvfjxLw0x-s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "138899257771-0f9gcfm9gn07d09s9jjvot14f2jvme48.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

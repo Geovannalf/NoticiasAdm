@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<ScrollView
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
     android:background="@color/purple_200"
     android:orientation="vertical"
     tools:context=".MainActivity">
@@ -34,6 +39,7 @@
     <EditText
         android:id="@+id/editTextNoticia"
         android:textColor="@color/black"
+        android:inputType="textMultiLine"
         android:textColorHint="@color/black"
         android:layout_width="match_parent"
         android:layout_height="200dp"
@@ -48,6 +54,7 @@
     <EditText
         android:id="@+id/editTextData"
         android:textColor="@color/black"
+        android:maxLength="10"
         android:textColorHint="@color/black"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -61,6 +68,7 @@
     <EditText
         android:id="@+id/editTextAutor"
         android:textColor="@color/black"
+        android:maxLines="1"
         android:textColorHint="@color/black"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -82,3 +90,4 @@
         android:padding="15dp"
         android:backgroundTint="@color/purple_500"/>
 </LinearLayout>
+</ScrollView>
